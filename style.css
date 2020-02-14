@@ -1,0 +1,484 @@
+
+*{
+	padding:0px;
+	margin:0px;
+}
+body{
+	background-color: hsl(29, 25%, 63%);
+}
+
+header{
+	width:100%;
+	position: fixed;
+	z-index:10;
+	border-bottom: 2px solid hsl(0, 0%, 60%);
+}
+header ul{
+	background-color: hsla(29, 100%, 13%, 0.9);
+	text-align: center;
+	padding: 20px 0px;
+}
+header ul:hover{
+	border-bottom: 1px solid #fff;
+}
+header li{
+	display: inline;
+	font-size: 25px;
+	margin: 0px 20px;
+	letter-spacing:2px;
+	font-weight: bold;
+}
+header .active{
+	color: #000;
+}
+header a{
+	text-decoration:none;
+	color: hsl(0, 0%, 60%);
+}
+header a:hover{
+	color: hsl(0, 10%, 10%);
+}
+.headcon:hover a{
+	color: hsl(0, 10%, 10%);
+}
+.headcon:hover .icofont-beans{
+	color: hsl(0, 10%, 10%);
+}
+.icofont-beans{
+	font-size: 27px;
+	color:#000;
+}
+
+
+.banner{
+	padding-bottom: 200px;
+	margin-bottom: 10px;
+}
+.banner img{
+	padding-top: 70px;
+	width: 100%;
+}
+.logo{
+	height: 200px;
+	width: 600px;
+	margin-top: -400px;
+	margin-left: 50px;
+	z-index: 1;
+	font-family: 'Caveat', cursive;
+}
+.logo h1{
+	font-size: 65px;
+	color: hsl(0, 100%, 100%);
+	letter-spacing: 6px;
+	font-weight:400;
+	text-align: center;
+}
+.logo h1::before{
+	z-index:-1;
+}
+.logo p{
+	font-size: 35px;
+	color: hsla(0, 100%, 100%,0.4);
+	letter-spacing: 3px;
+	text-align: center;
+}
+
+/* FACEBOOK, instagram BANNER */
+.social {
+	margin-top:150px;
+	margin-left:-200px;
+}
+
+.facebookbanner{
+	position:relative;
+	width:175px;
+	border:2px solid hsla(0, 100%, 100%,0.8);
+	margin-top:15px;
+	margin-left:5px;
+	z-index: 1;
+	font-family:sans-serif;
+	display:inline-block;
+}
+.facebookbanner a{
+	text-align:center;
+	font-size:17px;
+	font-weight:bold;
+	padding:10px 0px;
+	display: block;
+	color: hsla(0, 100%, 100%,0.8);
+	letter-spacing: 1px;
+}
+
+.facebookbanner:hover a {
+	color: hsl(221, 100%, 72%);
+}
+.facebookbanner:hover{
+	background-color:hsla(0,0%,0%,0.5);
+	border:2px solid hsl(221, 44%, 41%);
+}
+
+.instagrambanner{
+	position:relative;
+	width:175px;
+	border:2px solid hsla(0, 100%, 100%,0.8);
+	margin-top:15px;
+	margin-left:35px;
+	z-index: 1;
+	font-family:sans-serif;
+	display:inline-block;
+}
+.instagrambanner a{
+	text-align:center;
+	font-size:17px;
+	font-weight:bold;
+	padding:10px 0px;
+	display: block;
+	color: hsla(0, 100%, 100%,0.8);
+	letter-spacing: 1px;
+}
+
+.instagrambanner:hover a {
+	color: hsl(0, 100%, 72%);
+}
+.instagrambanner:hover{
+	background-color:hsla(0,0%,0%,0.5);
+	border:2px solid hsl(0, 44%, 41%);
+}
+/* FACEBOOK, instagram BANNER */
+
+#o_nas{
+	padding-top: 35px;
+	margin:0px 150px 10px 150px;
+}
+
+.O_zcoffee{
+	padding-bottom: 40px;
+}
+.O_zcoffee p{
+	font-family: 'Kaushan Script', cursive;
+	font-size: 30px;
+	font-weight: 400;
+	color: hsl(0,0%,10%);
+	letter-spacing:2px;
+	display:inline;
+	line-height:35px;
+}
+.O_zcoffee .p_zcoffee {
+	color: hsla(29, 50%, 13%, 0.9);
+	font-size:40px;
+}
+
+
+
+/* AKTULANOSCI (NOWOSCI NA STRONIE) */
+.news{
+	margin:0px 275px;
+	margin-bottom:20px;
+}
+.pnews{
+	border:2px solid #000;
+	background-color: hsl(0,0%,35%);
+	margin:0px 260px -3px 260px;
+	text-align:center;
+	border-radius:5px 5px 0px 0px;
+}
+.pnews h2{
+	padding:20px 0px 25px 0px;
+	color: hsl(0,100%,100%);
+}
+
+.status{
+	overflow: auto;
+	max-height:525px;
+}
+
+.nowosci{
+	background-color: hsl(0,0%,35%);
+}
+
+.datanowosci{
+	font-size:20px;
+	color:hsl(0,0%,80%);
+}
+.nowosci.lewo .datanowosci{
+	padding:10px 0px 5px 30px;
+}
+.nowosci.lewo .datanowosci p{
+	border-bottom: 2px solid black;
+}
+.nowosci.prawo .datanowosci{
+	text-align:right;
+	padding: 10px 30px 5px 0px;
+}
+.nowosci.prawo .datanowosci p{
+	border-bottom:2px solid black;
+}
+
+.nowosci.lewo .trescnowosci{
+	padding:10px 5px 5px 30px;
+}
+.nowosci.prawo .trescnowosci{
+	text-align:right;
+	padding:10px 30px 5px 5px;
+}
+
+.temat{
+	font-size:35px;
+	color: hsl(57, 75%, 50%);
+	margin-top:-10px;
+	margin-bottom: 25px;
+	font-weight:700;
+}
+.temat p{
+	padding:0px 10px;
+}
+.nowosci.lewo .temat p{
+	margin-left:95px;
+}
+.nowosci.prawo .temat p{
+	margin-right: 95px;
+}
+
+.nowosci.lewo.a3 .zawartosc{
+	min-height:50px;
+}
+.nowosci.prawo.a4 .zawartosc{
+	min-height:100px;
+}
+.nowosci.lewo.a5 .zawartosc{
+	min-height:100px;
+}
+
+.img{
+	height:100px;
+	min-width:70px;
+	max-width:100px;
+	padding-bottom:40px;
+}
+.nowosci.prawo .img{
+	float: right;
+}
+
+.tresc{
+	font-size:20px;
+	padding-bottom:20px;
+	color: hsl(0,0%,85%);
+}
+.tresc a{
+	color: hsl(0,0%,85%);;
+	text-decoration:underline;
+}
+.nowosci.lewo.a5 .tresc{
+	padding-left:10px;
+	margin:-135px 0px 0px 70px;
+}
+.nowosci.prawo.a4 .tresc p{
+	margin-right:115px;
+}
+.nowosci.lewo.a3 .special{
+	text-align:right;
+	color: hsl(29, 70%, 75%);
+	margin-right: 40px;
+}
+
+/* KONIEC AKTUALNOSCI */
+
+
+
+
+.nadfooter{
+	height:200px;
+	background-color: hsla(0, 0%, 0%, 0.75);
+	border-top: 1px solid Black;
+}
+.nadfooter a{
+	color: #fff;
+}
+.nadfooter a:hover{
+	color: hsl(29, 25%, 63%);
+}
+.grid{
+	margin: 0px 200px;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: 70px 25px 25px;
+}
+.box.a, .b, .c, .d{
+	font-size: 26px;
+	padding-top:30px;
+	letter-spacing:2px;
+}
+.box a:hover{
+	text-decoration: underline ;
+}
+
+.podfooter{
+	height:100px;
+	background-color: hsla(0, 0%, 0%, 0.8);
+}
+.podfootergrid{
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	grid-template-rows: 100px;
+}
+.pfg.p1{
+	grid-area: 1 / 1 /span 1/span 2;
+}
+.pfg.p1 p{
+	color: #fff;
+	padding-top:40px;
+	margin-left:80px;
+}
+
+.icofont-facebook{
+	color:#fff;
+	font-size: 45px;
+	float: left;
+	margin:20px 50px 40px 50px;
+	padding:5px;
+}
+.icofont-facebook:hover{
+	color: hsl(221, 44%, 41%);
+}
+
+.icofont-instagram{
+	color:#fff;
+	font-size: 45px;
+	float: left;
+	margin: 20px 0px 40px 50px;
+	padding:5px;
+}
+.icofont-instagram:hover{
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+a{
+	text-decoration:none;
+	color: hsl(0, 0%, 60%);
+}
+a:hover{
+	color:#000;
+}
+
+@media only screen and (max-width: 500px){
+	*{
+		padding:0px;
+		margin:0px;
+	}
+	body{
+		background-color: hsl(29, 25%, 63%);
+	}
+	header{
+		display:none;
+	}
+	.imgbanner{
+		display:none;
+	}
+	.logo{
+		text-align:center;
+		margin:50px 20px 20px;
+		font-family: 'Caveat', cursive;
+
+	}
+	.logo h1{
+		color: hsl(0, 0%, 20%);
+		font-size:90px;
+		letter-spacing: 6px;
+		font-weight:700;
+	}
+	.logo p{
+		font-size: 35px;
+		color: hsl(0, 0%, 20%,);
+		letter-spacing: 3px;
+	}
+	.facebookbanner{
+		display:none;
+	}
+	.instagrambanner{
+		display:none;
+	}
+	.social{
+		display:none;
+	}
+	.O_zcoffee{
+		text-align:center;
+		margin:40px 20px;
+	}
+	.O_zcoffee p{
+		font-family: 'Kaushan Script', cursive;
+		font-size: 30px;
+		font-weight: 400;
+		color: hsl(0,0%,10%);
+		letter-spacing:2px;
+		display:inline;
+		line-height:38px;
+	}
+	.O_zcoffee .p_zcoffee {
+		color: hsla(29, 50%, 13%, 0.9);
+		font-size:40px;
+	}
+	.news{
+		margin:0px 45px;
+		margin-bottom:20px;
+	}
+	.pnews{
+		border:2px solid #000;
+		background-color: hsl(0,0%,35%);
+		text-align:center;
+		border-radius:5px 5px 0px 0px;
+	}
+	.pnews h2{
+		padding:20px 0px 25px 0px;
+		color: hsl(0,100%,100%);
+	}
+	.status{
+		overflow: auto;
+		max-height:350px;
+	}
+	.nowosci{
+		background-color: hsl(0,0%,35%);
+	}
+	.datanowosci{
+		font-size:20px;
+		color:hsl(0,0%,80%);
+		text-align:center;
+		border-bottom: 2px solid black;
+		padding:15px 0px;
+	}
+	.temat{
+		text-align:center;
+		font-size:35px;
+		color: hsl(57, 75%, 50%);
+		margin-bottom: 25px;
+		font-weight:700;
+		padding-top:10px;
+	}
+	.img{
+		padding-left:5px;
+	}
+	.tresc{
+		font-size:20px;
+		padding:0px 5px 20px;
+		color: hsl(0,0%,85%);
+	}
+	.para1{
+		padding:5px 0px;
+		margin-left:75px;
+		margin-top:-110px;
+	}
+	.para2{
+		padding:10px 0px;
+	}
+	.para1.inna1{
+		margin-left:105px;
+	}
+	.podpis{
+		text-align:right;
+		color: hsl(29, 70%, 75%);
+		padding-right:10px;
+	}
+
+
+}
