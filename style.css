@@ -1,10 +1,9 @@
-
 *{
 	padding:0px;
 	margin:0px;
 }
 body{
-	background-color: hsl(29, 25%, 63%);
+	background-color: hsl(29, 25%, 57%);
 }
 
 header{
@@ -65,6 +64,7 @@ header a:hover{
 	margin-left: 50px;
 	z-index: 1;
 	font-family: 'Caveat', cursive;
+	user-select: none;
 }
 .logo h1{
 	font-size: 65px;
@@ -223,19 +223,19 @@ header a:hover{
 }
 
 .temat{
-	font-size:35px;
 	color: hsl(57, 75%, 50%);
 	margin-top:-10px;
 	margin-bottom: 25px;
 	font-weight:700;
 }
-.temat p{
+.temat h2{
 	padding:0px 10px;
+	font-size:35px;
 }
-.nowosci.lewo .temat p{
+.nowosci.lewo .temat h2{
 	margin-left:95px;
 }
-.nowosci.prawo .temat p{
+.nowosci.prawo .temat h2{
 	margin-right: 95px;
 }
 
@@ -361,8 +361,19 @@ a{
 a:hover{
 	color:#000;
 }
+/*
 
-@media only screen and (max-width: 500px){
+
+
+
+
+
+
+
+
+
+*/
+@media only screen and (max-width: 420px){
 	*{
 		padding:0px;
 		margin:0px;
@@ -373,24 +384,31 @@ a:hover{
 	header{
 		display:none;
 	}
+	.banner{
+		padding-bottom:20px;
+	}
 	.imgbanner{
 		display:none;
 	}
 	.logo{
+		width:320px;
+		padding:25px 0px;
 		text-align:center;
-		margin:50px 20px 20px;
+		margin:25px 45px 20px;
 		font-family: 'Caveat', cursive;
 
 	}
 	.logo h1{
-		color: hsl(0, 0%, 20%);
-		font-size:90px;
+		color: hsl(0, 0%, 0%);
+		font-size:70px;
 		letter-spacing: 6px;
 		font-weight:700;
+		margin-bottom:20px;
+
 	}
 	.logo p{
 		font-size: 35px;
-		color: hsl(0, 0%, 20%,);
+		color: hsl(1,0%,20%);
 		letter-spacing: 3px;
 	}
 	.facebookbanner{
@@ -401,6 +419,9 @@ a:hover{
 	}
 	.social{
 		display:none;
+	}
+	#o_nas{
+		margin:0;
 	}
 	.O_zcoffee{
 		text-align:center;
@@ -422,12 +443,16 @@ a:hover{
 	.news{
 		margin:0px 45px;
 		margin-bottom:20px;
+		border:2px solid black;
 	}
 	.pnews{
-		border:2px solid #000;
 		background-color: hsl(0,0%,35%);
 		text-align:center;
 		border-radius:5px 5px 0px 0px;
+		margin:0;
+		border:none;
+		border-bottom:2px solid black;
+		border-radius:0;
 	}
 	.pnews h2{
 		padding:20px 0px 25px 0px;
@@ -439,22 +464,39 @@ a:hover{
 	}
 	.nowosci{
 		background-color: hsl(0,0%,35%);
+		border:none;
+	}
+	.nowosci.lewo .datanowosci{
+		text-align: left;
+	}
+	.nowosci.prawo .datanowosci{
+		text-align:right;
 	}
 	.datanowosci{
 		font-size:20px;
 		color:hsl(0,0%,80%);
-		text-align:center;
-		border-bottom: 2px solid black;
 		padding:15px 0px;
 	}
 	.temat{
-		text-align:center;
 		font-size:35px;
 		color: hsl(57, 75%, 50%);
 		margin-bottom: 25px;
 		font-weight:700;
 		padding-top:10px;
 	}
+	.temat h2{
+		font-size:35px;
+		margin:0px 0px 0px 0px;
+		padding-left:0px;
+	}
+}
+.nowosci.lewo .temat h2{
+	margin-left:0px;
+	margin-right: 0px;
+}
+.nowosci.prawo .temat h2{
+	margin-right: 0px;
+}
 	.img{
 		padding-left:5px;
 	}
@@ -479,6 +521,4 @@ a:hover{
 		color: hsl(29, 70%, 75%);
 		padding-right:10px;
 	}
-
-
 }
