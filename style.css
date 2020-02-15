@@ -374,7 +374,7 @@ a:hover{
 
 */
 @media only screen and (max-width: 420px){
-	*{
+  *{
 		padding:0px;
 		margin:0px;
 	}
@@ -400,8 +400,8 @@ a:hover{
 	}
 	.logo h1{
 		color: hsl(0, 0%, 0%);
-		font-size:70px;
-		letter-spacing: 6px;
+		font-size:90px;
+		letter-spacing: 2px;
 		font-weight:700;
 		margin-bottom:20px;
 
@@ -478,6 +478,7 @@ a:hover{
 		padding:15px 0px;
 	}
 	.temat{
+		text-align: center;
 		font-size:35px;
 		color: hsl(57, 75%, 50%);
 		margin-bottom: 25px;
@@ -489,32 +490,47 @@ a:hover{
 		margin:0px 0px 0px 0px;
 		padding-left:0px;
 	}
-}
-.nowosci.lewo .temat h2{
-	margin-left:0px;
-	margin-right: 0px;
-}
-.nowosci.prawo .temat h2{
-	margin-right: 0px;
-}
+	.nowosci.lewo .temat h2{
+		margin-left:-25px;
+		margin-right: 0px;
+		padding:0;
+	}
+	.nowosci.prawo .temat h2{
+		margin-right: -25px;
+		padding:0;
+	}
 	.img{
 		padding-left:5px;
 	}
-	.tresc{
+	.nowosci.lewo .tresc{
 		font-size:20px;
 		padding:0px 5px 20px;
 		color: hsl(0,0%,85%);
+		margin-left:0px;
 	}
 	.para1{
 		padding:5px 0px;
-		margin-left:75px;
-		margin-top:-110px;
+		margin-left:0px;
+		margin-top:0px;
 	}
 	.para2{
+		width:100%;
+		margin:0px;
 		padding:10px 0px;
+		text-align:left;
+	}
+	.nowosci.lewo.a5 .tresc{
+		margin-left:0px;
+	}
+	.nowosci.lewo.a5 .tresc .para1{
+		margin-left:70px;
+		margin-top:-150px;
+	}
+	.nowosci.lewo.a5 .tresc .para2{
+		margin-left:0px;
 	}
 	.para1.inna1{
-		margin-left:105px;
+		margin-left:0px;
 	}
 	.podpis{
 		text-align:right;
