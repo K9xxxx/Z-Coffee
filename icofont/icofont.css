@@ -33,34 +33,24 @@ url("./fonts/icofont.woff") format("woff");
   -webkit-font-smoothing: antialiased;
 }
 
+.icofont-navigation-menu:before
+{
+  content: "\efa2";
+}
+
 .icofont-beans:before
 {
   content: "\eb43";
 }
 
-.icofont-coffee-alt:before
+.icofont-facebook:before
 {
-  content: "\eb55";
+  content: "\ed37";
 }
 
-.icofont-coffee-cup:before
+.icofont-instagram:before
 {
-  content: "\eb56";
-}
-
-.icofont-coffee-mug:before
-{
-  content: "\eb57";
-}
-
-.icofont-coffee-pot:before
-{
-  content: "\eb58";
-}
-
-.icofont-search-map:before
-{
-  content: "\ed16";
+  content: "\ed46";
 }
 
 .icofont-xs
