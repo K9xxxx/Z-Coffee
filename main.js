@@ -11,7 +11,7 @@ const tl = new TimelineMax();
 const toggleMenu= new TimelineMax({paused:true,reversed:true});
 
 
-hamburger.addEventListener('mouseenter', () => {
+hamburger.addEventListener('click', () => {
   if (hamburger.classList.contains('js-x')){
     return;}
   });
