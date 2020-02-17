@@ -47,6 +47,9 @@ header a:hover{
 	font-size: 27px;
 	color:#000;
 }
+header .header-mobile{
+	display:none;
+}
 
 
 .banner{
@@ -91,7 +94,6 @@ header a:hover{
 
 .facebookbanner{
 	position:relative;
-	width:175px;
 	border:2px solid hsla(0, 100%, 100%,0.8);
 	margin-top:15px;
 	margin-left:5px;
@@ -119,7 +121,6 @@ header a:hover{
 
 .instagrambanner{
 	position:relative;
-	width:175px;
 	border:2px solid hsla(0, 100%, 100%,0.8);
 	margin-top:15px;
 	margin-left:35px;
@@ -291,6 +292,15 @@ header a:hover{
 	background-color: hsla(0, 0%, 0%, 0.75);
 	border-top: 1px solid Black;
 }
+.nadfooter li{
+	display:block;
+	font-size:16px;
+}
+
+.nadfooter .main-li{
+ font-size:26px;
+ padding-bottom:10px;
+}
 .nadfooter a{
 	color: #fff;
 }
@@ -312,30 +322,37 @@ header a:hover{
 	text-decoration: underline ;
 }
 
+
+
+
 .podfooter{
 	height:100px;
 	background-color: hsla(0, 0%, 0%, 0.8);
 }
 .podfootergrid{
 	display: grid;
-	grid-template-columns: repeat(5, 1fr);
+	grid-template-columns: 8fr 2fr;
 	grid-template-rows: 100px;
 }
 .pfg.p1{
-	grid-area: 1 / 1 /span 1/span 2;
+	grid-area: 1 / 1 /span 1/span 1;
 }
 .pfg.p1 p{
 	color: #fff;
 	padding-top:40px;
 	margin-left:80px;
 }
-
+.pfg.p2{
+	grid-area:1/2/span 1/span 1;
+}
+.pfg.p2 li{
+	display:inline;
+}
 .icofont-facebook{
 	color:#fff;
-	font-size: 45px;
+	font-size: 55px;
 	float: left;
-	margin:20px 50px 40px 50px;
-	padding:5px;
+	margin:22px 10px 23px 30px;
 }
 .icofont-facebook:hover{
 	color: hsl(221, 44%, 41%);
@@ -343,10 +360,9 @@ header a:hover{
 
 .icofont-instagram{
 	color:#fff;
-	font-size: 45px;
+	font-size:55px;
 	float: left;
-	margin: 20px 0px 40px 50px;
-	padding:5px;
+	margin:22px 10px ;
 }
 .icofont-instagram:hover{
   background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
@@ -381,8 +397,55 @@ a:hover{
 	body{
 		background-color: hsl(29, 25%, 63%);
 	}
-	header{
+	header .header-SDdesk{
 		display:none;
+	}
+	.nav-bar-mob{
+		display: inline;
+		float:right;
+		margin:5px 0px 0px 0px;
+	}
+	.icofont-navigation-menu{
+		font-size:40px;
+		color:black;
+	}
+	.menu-li{
+		padding-bottom:10px;
+		text-align: center;
+		background-color: hsl(29, 45%, 23%);
+		border: none;
+	}
+	.menu-li a{
+		font-size:40px;
+		padding-bottom: 20px;
+	}
+
+	.menu {
+		background-color: hsl(29, 45%, 23%);
+		transform:scaleY(0);
+		transform-origin:top;
+		margin-top: -1px;
+	}
+	.icofont-beans{
+		margin-left:0px;
+	}
+	header .header-mobile{
+		text-align: center;
+		display:block;
+		position:fixed;
+		width:100%;
+		margin-top:0;
+		top:0;
+		left:0;
+	}
+	header .header-mobile ul{
+		padding-top:5px;
+		padding-bottom:5px;
+		border:none;
+	}
+	header li{
+		padding:0px 0px 10px 0px;
+		display:block;
 	}
 	.banner{
 		padding-bottom:20px;
@@ -392,11 +455,12 @@ a:hover{
 	}
 	.logo{
 		width:320px;
-		padding:25px 0px;
+		padding:45px 0px 25px 0px;
 		text-align:center;
-		margin:25px 45px 20px;
+		margin:0px 45px 20px 25px;
 		font-family: 'Caveat', cursive;
-
+		position:relative;
+		box-sizing: border-box;
 	}
 	.logo h1{
 		color: hsl(0, 0%, 0%);
@@ -529,6 +593,12 @@ a:hover{
 	.nowosci.lewo.a5 .tresc .para2{
 		margin-left:0px;
 	}
+	.nowosci.lewo .para2{
+		padding-right: 15px;
+	}
+	.nowosci.prawo .para2{
+		padding-left: 15px;
+	}
 	.para1.inna1{
 		margin-left:0px;
 	}
@@ -536,5 +606,8 @@ a:hover{
 		text-align:right;
 		color: hsl(29, 70%, 75%);
 		padding-right:10px;
+	}
+	.grid{
+		margin:0px;
 	}
 }
