@@ -23,7 +23,7 @@ tl.fromTo(logop,3.5,{opacity:0},{ opacity:0.8})
 
 hamburger.addEventListener('click', _ => {
   hamburger.classList.toggle('js-x');
-  toggleMenu.to(logo,0.5,{y:125});
+  toggleMenu.to(calazawartosc,0.5,{y:125});
   toggleMenu.to(menu,0.5,{scaleY:1},"-=0.5");
   toggleMenu.reversed() ? toggleMenu.play() : toggleMenu.reverse();
 })
