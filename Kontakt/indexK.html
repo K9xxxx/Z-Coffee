@@ -6,9 +6,8 @@
 		<meta name="description" content="Wybierz co chcesz do swojego BMW"/>
 		<meta name="keywords" content="Kawa, Zoombie, Najlepsza Kawa,	parzenie, ChodzaceTrupy, wzmocnienie, dopamina, "/>
 		<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1"/>
-		<link href="style.css" type="text/css" rel="stylesheet">	
-		<link rel="stylesheet" href="../Icofont/Z-coffee/icofont.min.css">
-		<link rel="stylesheet" href="../Icofont/naszemenu/icofont.min.css">
+		<link href="style.css" type="text/css" rel="stylesheet">
+		<link rel="stylesheet" href="../icofont/icofont.min.css">
 	</head>
 	<body>
 		<header>
@@ -21,10 +20,10 @@
 				<li><a class="active" href='#' title="Kontakt"> Kontakt </a></li>
 			</ul>
 		</header>
-		
+
 		<div class="pustydiv">
 		</div>
-		
+
 		<div class="napiszdonas">
 			<div class="napisz">
 				<h2> Napisz do nas</h2>
@@ -36,22 +35,22 @@
 						<label for="name" title="Imie">Imie:<span>*</span></label>
 						<input class="input" id="name" type="username" name="name" pattern="[a-zA-Z]{1,}" title="Prosze użyc dozwolonych znaków(A-Z, a-z)" required>
 					</div>
-					
+
 					<div class="field a2">
 						<label for="surname" title="Nazwisko">Nazwisko:</label>
 						<input class="input" id="surname" type="text" name="surname" pattern="[a-zA-Z]{}3." title="Prosze użyc dozwolonych znaków(A-Z, a-z)">
 					</div>
-					
+
 					<div class="field a3">
 						<label for="email" title="E-mail">E-mail:<span>*</span></label>
 						<input class="input" id="email" type="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
 					</div>
-					
+
 					<div class="field a4">
 						<label for="phonenumber" title="Numer telefonu">Numer telefonu:</label>
 						<input class="input" id="phonenumber" type="tel" name="number" pattern="[0-9]{9,}" title="Wprowadz przynajmiej 9 cyfr">
 					</div>
-					
+
 					<div class="field a5">
 						<label for="category" title="Kategoria">Kategoria:<span>*</span></label>
 						<br>
@@ -63,14 +62,14 @@
 							<option value="Zakupy">Zakupy</option>
 						</select>
 					</div>
-					
+
 					<div class="field a6"></div>
 					<div class="field a7">
 						<label for="extra" title="Twoja wiadomość">Twoja wiadomość:<span>*</span></label>
 						<br>
 						<textarea id="extra" name="extra" rows="12" cols="125" min="5" title="Wpisz swoją wiadomosc" required></textarea>
 					</div>
-					
+
 					<div class="field a8"></div>
 
 					<form>
@@ -79,36 +78,53 @@
 				</div>
 			</form>
 		</div>
-		
+
 		<footer>
-			<div class="nadfooter">
-				<div class="grid">
-					<div class="box a"><a href="../index.html" title="O Nas"> O NAS </a></div>
-					<div class="box b"><a href="../Naszemenu/indexM.html" title="Menu"> MENU </a></div>
-					<div class="box c"><a href="./indexK.html" title="Kontakt">	KONTAKT </a></div>
-					<div class="box d"><a href="../Lokalizacja/indexL.html" title="Lokalizacja"> LOKALIZACJA </a></div>
-					<div class="box e"><a href="../index.html#conaswyroznia" title="Co nas wyróznia?">	Co nas wyróznia? </a></div>
-					<div class="box f"><a href="#" title="Nasze nowości">	Nasze nowości </a></div>
-					<div class="box g"><a href="#" title="Oceń naszą kawiarnie">	Oceń naszą kawiarnie </a></div>
-					<div class="box h"><a> </a></div>
-					<div class="box i"><a> </a></div>
-					<div class="box j"><a> </a></div>
-					<div class="box k"><a href="./indexK.html" title="Biznes"> Biznes </a></div>
-					<div class="box l"><a> </a></div>
-					<div class="box m"><a> </a></div>
-					<div class="box n"><a> </a></div>
-				</div>
-			</div>
-			<div class="podfooter">
-				<div class="podfootergrid">
-						<div class="pfg p1"><p>© 2020 Z-Coffee. All rights reserved</p></div>
-						<div class="pfg p2"> </div>
-						<div class="pfg p3"> </div>
-						<div class="pfg p4"><a href="http://www.instagram.com" target="_blank" title="Instagram"><i class="icofont-instagram"></i></a><a href="http://www.facebook.com" target="_blank" title="Facebook"><i= class="icofont-facebook"></a></div>
-				</div>
-			</div>
-		</footer>
-	
+					<div class="nadfooter">
+						<div class="grid">
+							<div class="box a">
+								<ul>
+									<li class="main-li"><a href="../index.html" title="O Nas"> O NAS </a></li>
+									<li><a href="../index.html#conaswyroznia" title="Co na wyróżnia">	Co nas wyróżnia? </a></li>
+								</ul>
+							</div>
+							<div class="box b">
+								<ul>
+									<li class="main-li"><a href="../NaszeMenu/indexM.html" title="Menu"> MENU </a></li>
+									<li><a href="#" title="Nasze nowości">	Nasze nowości </a></li>
+								</ul>
+							</div>
+							<div class="box c">
+								<ul>
+									<li class="main-li"><a href="./indexK.html" title="Kontakt">	KONTAKT </a></li>
+									<li><a href="#" title="Oceń naszą kawiarnie">	Oceń naszą kawiarnie </a></li>
+									<li><a href="./indexK.html" title="Biznes"> Biznes </a></li>
+								</ul>
+							</div>
+							<div class="box d">
+								<ul>
+									<li class="main-li"><a href="../Lokalizacja/indexL.html" title="Lokalizacja"> LOKALIZACJA </a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="podfooter">
+						<div class="podfootergrid">
+								<div class="pfg p1">
+									<ul>
+										<li><p>© 2020 Z-Coffee. All rights reserved</p></li>
+									</ul>
+								</div>
+								<div class="pfg p2">
+									<ul>
+										<li><a href="http://www.instagram.com" target="_blank" title="Instagram"><i class="icofont-instagram"></i></a></li>
+										<li><a href="http://www.facebook.com" target="_blank" title="Facebook"><i= class="icofont-facebook"></i></a></li>
+									</ul>
+								</div>
+						</div>
+					</div>
+				</footer>
+
 	</body>
 
 </html>

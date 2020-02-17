@@ -114,6 +114,15 @@ color:hsl(0, 100%, 48%);
 	background-color: hsla(0, 0%, 0%, 0.75);
 	border-top: 1px solid Black;
 }
+.nadfooter li{
+	display:block;
+	font-size:16px;
+}
+
+.nadfooter .main-li{
+ font-size:26px;
+ padding-bottom:10px;
+}
 .nadfooter a{
 	color: #fff;
 }
@@ -136,32 +145,36 @@ color:hsl(0, 100%, 48%);
 }
 
 
+
+
 .podfooter{
 	height:100px;
 	background-color: hsla(0, 0%, 0%, 0.8);
 }
 .podfootergrid{
 	display: grid;
-	grid-template-columns: repeat(5, 1fr);
+	grid-template-columns: 8fr 2fr;
 	grid-template-rows: 100px;
 }
-
 .pfg.p1{
-	grid-area: 1 / 1 /span 1/span 2;
+	grid-area: 1 / 1 /span 1/span 1;
 }
 .pfg.p1 p{
 	color: #fff;
 	padding-top:40px;
 	margin-left:80px;
 }
-
-
+.pfg.p2{
+	grid-area:1/2/span 1/span 1;
+}
+.pfg.p2 li{
+	display:inline;
+}
 .icofont-facebook{
 	color:#fff;
-	font-size: 45px;
+	font-size: 55px;
 	float: left;
-	margin:20px 50px 40px 50px;
-	padding:5px;
+	margin:22px 10px 23px 30px;
 }
 .icofont-facebook:hover{
 	color: hsl(221, 44%, 41%);
@@ -169,11 +182,9 @@ color:hsl(0, 100%, 48%);
 
 .icofont-instagram{
 	color:#fff;
-	font-size: 45px;
+	font-size:55px;
 	float: left;
-	margin: 20px 0px 40px 50px;
-	padding:5px;
- 
+	margin:22px 10px ;
 }
 .icofont-instagram:hover{
   background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
