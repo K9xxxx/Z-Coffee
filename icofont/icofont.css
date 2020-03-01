@@ -53,6 +53,11 @@ url("./fonts/icofont.woff") format("woff");
   content: "\ed46";
 }
 
+.icofont-curved-down:before
+{
+  content: "\ea73";
+}
+
 .icofont-xs
 {
   font-size: .5em;
