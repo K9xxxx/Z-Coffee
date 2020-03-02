@@ -10,6 +10,7 @@ header{
 	position: fixed;
 	z-index:20;
 	border-bottom: 2px solid hsl(0, 0%, 60%);
+	font-family:serif;
 }
 header ul{
 	background-color: hsla(29, 100%, 13%, 0.9);
@@ -49,6 +50,11 @@ header a:hover{
 header .header-mobile{
 	display:none;
 }
+.icofont-navigation-menu{
+	font-size:40px;
+	color:black;
+	margin-right:5px;
+}
 #kawpod, #kawmro, #m_sniadanie, #dese{
 	padding-top:65px;
 	padding-bottom:-65px;
@@ -78,6 +84,7 @@ header .header-mobile{
 	border-top:3px solid transparent;
 	border-image: linear-gradient(240deg, hsl(29, 15%, 35%), hsl(29, 15%, 35%), hsl(29, 25%, 63%), hsl(29, 25%, 63%), hsl(29, 15%, 35%), hsl(29, 15%, 35%));
 	border-image-slice: 1;
+	font-family:serif;
 }
 
 .mozliwosci ul{
@@ -104,6 +111,7 @@ header .header-mobile{
 	border-top:2px solid hsl(29, 25%, 63%);
 	margin-bottom:50px;
 	background-color: hsl(29, 25%, 63%);
+	font-family:serif;
 }
 .description {
 	padding-top: 30px;
@@ -111,8 +119,6 @@ header .header-mobile{
 	text-align: center;
 	font-size:40px;
 }
-
-
 .pojemnik{
 	display: inline-block;
 	width: 210px;
@@ -124,7 +130,6 @@ header .header-mobile{
 	border-image: linear-gradient(57deg, hsla(29, 100%, 13%, 0.9), hsl(29, 25%, 63%), hsl(29, 25%, 63%), hsla(29, 100%, 13%, 0.9), hsla(29, 25%, 63%,0), hsla(29, 25%, 63%,0), hsla(29, 100%, 13%, 0.9));
 	border-image-slice: 1;
 }
-
 .paragraphpoj{
 	height:80px;
 }
@@ -140,6 +145,9 @@ header .header-mobile{
 	padding-left:7px;
 }
 
+footer{
+	font-family:serif;
+}
 .nadfooter{
 	height:200px;
 	background-color: #29241E;
@@ -149,7 +157,6 @@ header .header-mobile{
 	display:block;
 	font-size:16px;
 }
-
 .nadfooter .main-li{
  font-size:26px;
  padding-bottom:10px;

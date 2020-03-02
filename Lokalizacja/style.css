@@ -10,6 +10,7 @@ header{
 	position: fixed;
 	z-index:20;
 	border-bottom: 2px solid hsl(0, 0%, 60%);
+	font-family:serif;
 }
 header ul{
 	background-color: hsla(29, 100%, 13%, 0.9);
@@ -49,7 +50,11 @@ header a:hover{
 header .header-mobile{
 	display:none;
 }
-
+.icofont-navigation-menu{
+	font-size:40px;
+	color:black;
+	margin-right:5px;
+}
 
 
 .pustydiv{
@@ -74,6 +79,7 @@ header .header-mobile{
 .map.con1{
 	display:grid;
 	grid-template-rows:175px 200px;
+	font-family:serif;
 }
 .con1.openhours .opendays{
 	text-align:left;
@@ -106,12 +112,14 @@ header .header-mobile{
 	font-size:10px;
 	padding-top:0px;
 	padding-left:40px;
+	font-family:serif;
 }
 
 footer{
 	position:relative;
 	width:100%;
 	bottom:0;
+	font-family:serif;
 }
 .nadfooter{
 	height:200px;
@@ -443,7 +451,7 @@ a:hover{
 		margin-top: -1px;
 	}
 	.icofont-beans{
-		margin-left:0px;
+		margin-left:30px;
 	}
 	header .header-mobile{
 		text-align: center;
@@ -462,6 +470,7 @@ a:hover{
 	}
 	header li{
 		padding:0px 0px 10px 0px;
+		margin-left:40px;
 		display:block;
 	}
 	.pustydiv{
@@ -509,9 +518,9 @@ a:hover{
 		border-radius:10px;
 		display:inline;
 		padding:10px;
-		width:340px;
-		height:420px;
-		margin:20px auto 0;
+		width:310px;
+		height:410px;
+		margin:30px auto 0;
 		position:relative;
 	}
 	.map.con2-MB iframe{
@@ -529,6 +538,7 @@ a:hover{
 
 	footer{
 		position:relative;
+		font-family:serif;
 	}
 	.nadfooter{
 		height:auto;

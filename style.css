@@ -10,6 +10,7 @@ header{
 	position: fixed;
 	z-index:10;
 	border-bottom: 2px solid hsl(0, 0%, 60%);
+	font-family:serif;
 }
 header ul{
 	background-color: hsla(29, 100%, 13%, 0.9);
@@ -49,6 +50,12 @@ header a:hover{
 header .header-mobile{
 	display:none;
 }
+.icofont-navigation-menu{
+	font-size:40px;
+	color:black;
+	margin-right:5px;
+}
+
 
 .banner{
 	position: relative;
@@ -147,7 +154,6 @@ header .header-mobile{
 	padding-top: 35px;
 	margin:0px 150px 10px 150px;
 }
-
 .O_zcoffee{
 	padding-bottom: 40px;
 }
@@ -174,6 +180,7 @@ header .header-mobile{
 .news{
 	margin:0px 275px;
 	margin-bottom:20px;
+	font-family:serif;
 }
 .pnews{
 	border:2px solid #000;
@@ -278,7 +285,9 @@ header .header-mobile{
 
 /* KONIEC AKTUALNOSCI */
 
-
+footer{
+	font-family:serif;
+}
 .nadfooter{
 	height:200px;
 	background-color: #29241E;
@@ -315,7 +324,6 @@ header .header-mobile{
 .box a:hover{
 	text-decoration: underline ;
 }
-
 .podfooter{
 	height:100px;
 	background-color: hsla(0, 0%, 0%, 0.8);
@@ -348,7 +356,6 @@ header .header-mobile{
 .icofont-facebook:hover{
 	color: hsl(221, 44%, 41%);
 }
-
 .icofont-instagram{
 	color:#fff;
 	font-size:55px;
