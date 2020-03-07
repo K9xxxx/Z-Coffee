@@ -11,6 +11,8 @@ header{
 	z-index:10;
 	border-bottom: 2px solid hsl(0, 0%, 60%);
 	font-family:serif;
+	-webkit-tap-highlight-color: transparent;
+	user-select:none;
 }
 header ul{
 	background-color: hsla(29, 100%, 13%, 0.9);
