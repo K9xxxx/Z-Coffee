@@ -909,7 +909,9 @@ a:hover{
 		padding-right:10px;
 	}
 
-
+	footer{
+		position:relative;
+	}
 	.nadfooter{
 		height:auto;
 		padding: 0;
@@ -957,7 +959,7 @@ a:hover{
 		margin-top:-10px;
 	}
 	.podfootergrid{
-		grid-template-columns: 7fr 3fr;
+		grid-template-columns: 7fr 5fr;
 	}
 	.pfg.p1 p{
 		margin-left:20px;
@@ -965,9 +967,9 @@ a:hover{
 	.icofont-instagram{
 		font-size:35px;
 		background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-	  -webkit-background-clip: text;
-	  background-clip: text;
-	  -webkit-text-fill-color: transparent;
+		-webkit-background-clip: text;
+		background-clip: text;
+		-webkit-text-fill-color: transparent;
 	}
 	.icofont-facebook{
 		float:right;
