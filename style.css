@@ -770,7 +770,6 @@ a:hover{
 		display:none;
 	}
 	.calazawartosc{
-		position: relative;
 		margin:30px 0px 0px;
 	}
 
@@ -911,8 +910,6 @@ a:hover{
 	}
 
 	footer{
-		position: absolute;
-		bottom: 0;
 	}
 	.nadfooter{
 		height:auto;
