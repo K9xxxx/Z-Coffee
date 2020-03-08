@@ -910,6 +910,7 @@ a:hover{
 	}
 
 	footer{
+		position: relative;
 	}
 	.nadfooter{
 		height:auto;
