@@ -313,7 +313,6 @@ footer{
 	margin: 0px 200px;
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
-	grid-template-rows: 70px 25px 25px;
 }
 .box.a, .b, .c, .d{
 	font-size: 26px;
@@ -328,11 +327,11 @@ footer{
 }
 .podfooter{
 	height:100px;
-	background-color: hsla(0, 0%, 0%, 0.8);
+	background-color: #25201B;
 }
 .podfootergrid{
 	display: grid;
-	grid-template-columns: 8fr 2fr;
+	grid-template-columns: 17fr 3fr;
 	grid-template-rows: 100px;
 }
 .pfg.p1{
@@ -358,6 +357,7 @@ footer{
 .icofont-facebook:hover{
 	color: hsl(221, 44%, 41%);
 }
+
 .icofont-instagram{
 	color:#fff;
 	font-size:55px;
