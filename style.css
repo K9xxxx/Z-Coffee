@@ -803,8 +803,8 @@ a:hover{
 		font-size:40px;
 	}
 	.news{
-		margin:0px 45px 600px 45px;
-		margin-bottom:20px;
+		margin:0px 45px;
+		margin-bottom:600px;
 		border:2px solid black;
 		background-color: hsl(0,0%,35%);
 	}
