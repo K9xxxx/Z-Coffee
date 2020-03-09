@@ -4,6 +4,12 @@
 }
 body{
 	background-color: hsl(29, 25%, 63%);
+	height: 100%;
+	position:relative;
+}
+.main_container{
+	min-height: 100vh;
+	padding-bottom: 266px;
 }
 header{
 	width:100%;
@@ -130,9 +136,12 @@ label span{
 
 footer{
 	font-family:serif;
+	position:absolute;
+	bottom:0;
+	width:100%;
 }
 .nadfooter{
-	height:200px;
+	height:165px;
 	background-color: hsla(0, 0%, 0%, 0.75);
 	border-top: 1px solid Black;
 }
@@ -291,6 +300,7 @@ a:hover{
 		margin:20px 10px;
 	}
 	.napisz h2{
+		text-align: center;
 		margin-bottom:50px;
 		font-size:30px;
 	}
@@ -414,6 +424,11 @@ a:hover{
 	}
 }
 
+
+
+
+
+
 @media only screen and (max-width: 518px) and (min-width:357px){
 	*{
 		padding:0px;
@@ -477,8 +492,12 @@ a:hover{
 		margin:20px 20px;
 	}
 	.napisz h2{
+		text-align: center;
 		margin-bottom:50px;
 		font-size:30px;
+	}
+	.napisz p{
+		margin-left:30px;
 	}
 	.textfield{
 		display: grid;
@@ -674,6 +693,7 @@ a:hover{
 		margin:20px 35px;
 	}
 	.napisz h2{
+		text-align: center;
 		margin-bottom:50px;
 		font-size:30px;
 	}
@@ -868,6 +888,9 @@ a:hover{
 	.napiszdonas{
 		margin:20px 50px;
 	}
+	.napisz{
+		margin-left: 25px;
+	}
 	.napisz h2{
 		margin-bottom:50px;
 		font-size:30px;
@@ -1018,6 +1041,10 @@ a:hover{
 	body{
 		background-color: hsl(29, 25%, 63%);
 	}
+	.main_container{
+		min-height: 85vh;
+		padding-bottom: 264px;
+	}
 
 	header{
 		width:100%;
@@ -1071,12 +1098,15 @@ a:hover{
 	.napiszdonas{
 		margin:20px 100px;
 	}
+	.napisz{
+		margin-left: 45px;
+	}
 	.napisz h2{
 		margin-bottom:50px;
-		font-size:30px;
+		font-size:35px;
 	}
 	.napisz p{
-		font-size:19px;
+		font-size:24px;
 	}
 	.textfield{
 		display: grid;
@@ -1130,8 +1160,13 @@ a:hover{
 		background-color:transparent;
 		color:white;
 	}
+
+	footer{
+		position:absolute;
+		width:100%;
+	}
 	.nadfooter{
-		height:185px;
+		height:165px;
 		background-color: #29241E;
 		border-top: 1px solid Black;
 	}
@@ -1166,6 +1201,7 @@ a:hover{
 	.podfooter{
 		height:100px;
 		background-color: #25201B;
+		margin-top:-1px;
 	}
 	.podfootergrid{
 		display: grid;
