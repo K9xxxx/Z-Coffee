@@ -4,6 +4,12 @@
 }
 body{
 	background-color: hsl(29, 25%, 57%);
+	height: 100%;
+	position:relative;
+}
+.main_container{
+	min-height: 100vh;
+	padding-bottom: 266px;
 }
 header{
 	width:100%;
@@ -54,7 +60,7 @@ header .header-mobile{
 }
 .icofont-navigation-menu{
 	font-size:40px;
-	color:black;
+	color:gray;
 	margin-right:5px;
 }
 
@@ -181,7 +187,7 @@ header .header-mobile{
 /* AKTULANOSCI (NOWOSCI NA STRONIE) */
 .news{
 	margin:0px 275px;
-	margin-bottom:20px;
+	margin-bottom:80px;
 	font-family:serif;
 }
 .pnews{
@@ -288,6 +294,10 @@ header .header-mobile{
 /* KONIEC AKTUALNOSCI */
 
 footer{
+	position:absolute;
+	bottom:0;
+	left:0;
+	width:100%;
 	font-family:serif;
 }
 .nadfooter{
@@ -399,7 +409,7 @@ a:hover{
 	}
 	.icofont-navigation-menu{
 		font-size:40px;
-		color:black;
+		color:gray;
 	}
 	.menu-li{
 		padding-bottom:10px;
@@ -501,8 +511,7 @@ a:hover{
 		font-size:40px;
 	}
 	.news{
-		margin:0px 25px;
-		margin-bottom:20px;
+		margin:0px 25px 80px;
 		border:2px solid black;
 		background-color: hsl(0,0%,35%);
 	}
@@ -673,7 +682,7 @@ a:hover{
 	}
 }
 
-@media only screen and (max-width: 518px) and (min-width:357px){
+@media only screen and (min-width:357px) and (max-width: 518px) {
   *{
 		padding:0px;
 		margin:0px;
@@ -691,7 +700,7 @@ a:hover{
 	}
 	.icofont-navigation-menu{
 		font-size:40px;
-		color:black;
+		color:gray;
 	}
 	.menu-li{
 		padding-bottom:10px;
@@ -803,8 +812,7 @@ a:hover{
 		font-size:40px;
 	}
 	.news{
-		margin:0px 45px;
-		margin-bottom:600px;
+		margin:0px 45px 40px;
 		border:2px solid black;
 		background-color: hsl(0,0%,35%);
 	}
@@ -899,7 +907,8 @@ a:hover{
 		padding-left: 15px;
 	}
 	.para1.inna1{
-		margin-left:0px;
+		margin-left:15px;
+		text-align: left;
 	}
 	.podpis{
 		text-align:right;
@@ -908,7 +917,7 @@ a:hover{
 	}
 
 	footer{
-		position: relative;
+		position: absolute;
 	}
 	.nadfooter{
 		height:auto;
@@ -1000,7 +1009,7 @@ a:hover{
 	}
 	.icofont-navigation-menu{
 		font-size:40px;
-		color:black;
+		color:gray;
 	}
 	.menu-li{
 		padding-bottom:10px;
@@ -1110,7 +1119,7 @@ a:hover{
 	}
 	.news{
 		margin:0px 65px;
-		margin-bottom:20px;
+		margin-bottom:80px;
 		border:2px solid black;
 		background-color: hsl(0,0%,35%);
 	}
@@ -1207,7 +1216,9 @@ a:hover{
 		margin-left: 40px;
 	}
 	.para1.inna1{
-		margin-left:0px;
+		margin-left:55px;
+		width:65%;
+		text-align:left;
 	}
 	.podpis{
 		text-align:right;
@@ -1560,7 +1571,7 @@ a:hover{
 		margin-top:-120px;
 	}
 	.nowosci.lewo.a5 .tresc .para2{
-		margin-top:10px;
+		margin-top:35px;
 		margin-left:0px;
 	}
 	.nowosci.lewo .para2{
@@ -1571,7 +1582,9 @@ a:hover{
 		margin-left: 40px;
 	}
 	.para1.inna1{
-		margin-left:0px;
+		margin-left:55px;
+		width:65%;
+		text-align: left;
 	}
 	.podpis{
 		text-align:right;
@@ -1591,8 +1604,9 @@ a:hover{
 	}
 	.nadfooter li{
 		display:block;
-		font-size:13px;
+		font-size:15px;
 		margin:7px 0px;
+		letter-spacing: 1px;
 	}
 
 	.nadfooter .main-li{
@@ -1858,7 +1872,7 @@ a:hover{
 	/* AKTULANOSCI (NOWOSCI NA STRONIE) */
 	.news{
 		margin:0px 65px;
-		margin-bottom:20px;
+		margin-bottom:80px;
 		border:2px solid black;
 		background-color: hsl(0,0%,35%);
 	}
@@ -1944,7 +1958,7 @@ a:hover{
 		margin-top:-120px;
 	}
 	.nowosci.lewo.a5 .tresc .para2{
-		margin-top:10px;
+		margin-top:35px;
 		margin-left:0px;
 	}
 	.nowosci.lewo .para2{

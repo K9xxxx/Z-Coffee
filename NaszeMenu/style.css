@@ -4,6 +4,12 @@
 }
 body{
 	background-color: hsl(29, 15%, 35%);
+	height: 100%;
+	position:relative;
+}
+.main_container{
+	min-height: 100vh;
+	padding-bottom: 266px;
 }
 header{
 	width:100%;
@@ -54,7 +60,7 @@ header .header-mobile{
 }
 .icofont-navigation-menu{
 	font-size:40px;
-	color:black;
+	color:gray;
 	margin-right:5px;
 }
 #kawpod, #kawmro, #m_sniadanie, #dese{
@@ -148,6 +154,10 @@ header .header-mobile{
 }
 
 footer{
+	position:absolute;
+	bottom:0;
+	left:0;
+	width:100%;
 	font-family:serif;
 }
 .nadfooter{
@@ -258,7 +268,7 @@ a:hover{
 	}
 	.icofont-navigation-menu{
 		font-size:40px;
-		color:black;
+		color:gray;
 	}
 	.menu-li{
 		padding-bottom:10px;
@@ -338,6 +348,9 @@ a:hover{
 		width:110px;
 		height:145px;
 	}
+	.description{
+		font-size:33px;
+	}
 	.pojemnik .imgpoj{
 		width:130px;
 		height:145px;
@@ -377,6 +390,8 @@ a:hover{
 	.paragraphpoj p{
 		font-size: 20px;
 	}
+
+
 	.nadfooter{
 		height:auto;
 		padding: 0;
@@ -467,7 +482,7 @@ a:hover{
 	}
 	.icofont-navigation-menu{
 		font-size:40px;
-		color:black;
+		color:gray;
 	}
 	.menu-li{
 		padding-bottom:10px;
@@ -587,7 +602,11 @@ a:hover{
 		font-size: 20px;
 	}
 
-
+	footer{
+		position: absolute;
+		bottom: 0;
+		left:0;
+	}
 	.nadfooter{
 		height:auto;
 		padding: 0;
@@ -679,7 +698,7 @@ a:hover{
 	}
 	.icofont-navigation-menu{
 		font-size:40px;
-		color:black;
+		color:gray;
 	}
 	.menu-li{
 		padding-bottom:10px;
