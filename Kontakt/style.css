@@ -60,7 +60,7 @@ header .header-mobile{
 }
 .icofont-navigation-menu{
 	font-size:40px;
-	color:black;
+	color:gray;
 	margin-right:5px;
 }
 
@@ -255,7 +255,7 @@ a:hover{
 	}
 	.icofont-navigation-menu{
 		font-size:40px;
-		color:black;
+		color:gray;
 	}
 	.menu-li{
 		padding-bottom:10px;
@@ -357,6 +357,9 @@ a:hover{
 	.wyslij{
 		width:80%;
 	}
+
+
+
 	.nadfooter{
 		height:auto;
 		padding: 0;
@@ -429,7 +432,7 @@ a:hover{
 
 
 
-@media only screen and (max-width: 518px) and (min-width:357px){
+@media only screen and (min-width:357px) and (max-width: 518px) {
 	*{
 		padding:0px;
 		margin:0px;
@@ -447,7 +450,7 @@ a:hover{
 	}
 	.icofont-navigation-menu{
 		font-size:40px;
-		color:black;
+		color:gray;
 	}
 	.menu-li{
 		padding-bottom:10px;
@@ -556,7 +559,6 @@ a:hover{
 	}
 
 
-
 	.nadfooter{
 		height:auto;
 		padding: 0;
@@ -648,7 +650,7 @@ a:hover{
 	}
 	.icofont-navigation-menu{
 		font-size:40px;
-		color:black;
+		color:gray;
 	}
 	.menu-li{
 		padding-bottom:10px;
