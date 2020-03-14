@@ -572,7 +572,7 @@ a:hover{
 	}
 	.pojemnik .imgpoj{
 		width:130px;
-		height:145px;
+		height:151px;
 		padding:0px 5px;
 	}
 	.pojemnik{
@@ -607,8 +607,10 @@ a:hover{
 	.paragraphpoj{
 		height:100px;
 	}
-	.paragraphpoj p{
+	.paragraphpoj  p{
 		font-size: 20px;
+		margin:0;
+		padding:20px 0px 0px 0px;
 	}
 
 	footer{
