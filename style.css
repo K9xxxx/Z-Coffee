@@ -397,7 +397,7 @@ a:hover{
 		margin:0px;
 	}
 	body{
-		background-color: hsl(29, 15%, 63%);
+		background-color: hsl(29, 25%, 63%);
 	}
 	header .header-SDdesk{
 		display:none;
@@ -498,7 +498,14 @@ a:hover{
 		position: relative;
 	}
 	.coffeebeanspng{
-		display:none;
+		display:block;
+		width:120%;
+		height:40%;
+		opacity:0.3;
+		position:absolute;
+		top:270px;
+		left:-90px;
+		transform:rotate(75deg)
 	}
 	.O_zcoffee p{
 		font-family: 'Kaushan Script', cursive;
@@ -686,6 +693,11 @@ a:hover{
 		color: hsl(221, 44%, 41%);
 	}
 }
+
+
+
+
+
 
 @media only screen and (min-width:357px) and (max-width: 518px) {
   *{
