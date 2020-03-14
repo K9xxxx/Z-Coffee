@@ -103,7 +103,7 @@ header .header-mobile{
 .map.con2-SD{
 	text-align:center;
 	border:2px solid black;
-	border-radius:10px;
+	border-radius: 0px;
 	position:relative;
 }
 .map.con2-SD iframe{
@@ -282,6 +282,9 @@ a:hover{
 		padding:0px 0px 10px 0px;
 		display:block;
 	}
+	.main_container{
+		padding-bottom:0 !important;
+	}
 	.pustydiv{
 		padding-top: 70px;
 		background-color:hsl(29, 25%, 63%);
@@ -347,7 +350,9 @@ a:hover{
 		text-align: center;
 	}
 
-
+	footer{
+		position: relative;
+	}
 	.nadfooter{
 		height:auto;
 		padding: 0;
@@ -482,6 +487,9 @@ a:hover{
 		margin-left:40px;
 		display:block;
 	}
+	.main_container{
+		padding-bottom:0 !important;
+	}
 	.pustydiv{
 		padding-top: 70px;
 		background-color:hsl(29, 25%, 63%);
@@ -524,7 +532,7 @@ a:hover{
 	.map.con2-MB{
 		text-align:center;
 		border:2px solid black;
-		border-radius:10px;
+		border-radius:5px;
 		display:inline;
 		padding:10px;
 		width:310px;
@@ -547,6 +555,7 @@ a:hover{
 	}
 
 	footer{
+		position:relative;
 		font-family:serif;
 	}
 	.nadfooter{
@@ -680,6 +689,9 @@ a:hover{
 		padding:0px 0px 10px 0px;
 		display:block;
 	}
+	.main_container{
+		padding-bottom:0 !important;
+	}
 	.pustydiv{
 		padding-top: 70px;
 		background-color:hsl(29, 25%, 63%);
@@ -743,7 +755,9 @@ a:hover{
 		padding-right:40px;
 		text-align: center;
 	}
-
+	footer{
+		position:relative;
+	}
 	.nadfooter{
 		height:auto;
 		padding: 0;
@@ -1282,7 +1296,7 @@ a:hover{
 	.map.con2-SD{
 		text-align:center;
 		border:2px solid black;
-		border-radius:10px;
+		border-radius:0px;
 		position:relative;
 	}
 	.map.con2-SD iframe{

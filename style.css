@@ -486,6 +486,9 @@ a:hover{
 	.social{
 		display:none;
 	}
+	#m_container{
+		padding-bottom:0 !important;
+	}
 	#o_nas{
 		margin:0;
 	}
@@ -614,7 +617,9 @@ a:hover{
 		padding-right:10px;
 	}
 
-
+	footer{
+		position:relative;
+	}
 	.nadfooter{
 		height:auto;
 		padding: 0;
@@ -779,7 +784,9 @@ a:hover{
 		display:none;
 	}
 
-
+	#m_container{
+		padding-bottom:0 !important;
+	}
 	#o_nas{
 		margin:0;
 	}
@@ -917,7 +924,7 @@ a:hover{
 	}
 
 	footer{
-		position: absolute;
+		position: relative;
 	}
 	.nadfooter{
 		height:auto;
@@ -1088,6 +1095,9 @@ a:hover{
 	.social{
 		display:none;
 	}
+	#m_container{
+		padding-bottom:0 !important;
+	}
 	#o_nas{
 		margin:0;
 	}
@@ -1224,6 +1234,9 @@ a:hover{
 		text-align:right;
 		color: hsl(29, 70%, 75%);
 		padding-right:10px;
+	}
+	footer{
+		position: relative;
 	}
 	.nadfooter{
 		height:auto;

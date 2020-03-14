@@ -13,6 +13,7 @@ const box_b_div=document.getElementById("box_b");
 const box_c_div=document.getElementById("box_c");
 const header_mobile=document.querySelector(".header_mobile");
 const footer=document.getElementById('footer');
+const main_container=document.querySelector('.main_container');
 
 
 // Nie potrzebne ale do zostawienia
@@ -35,9 +36,7 @@ hamburger.addEventListener('click', () => {
 tl.fromTo(logop,3.5,{opacity:0},{opacity:0.8})
   .fromTo(logoh1,4,{opacity:0},{opacity:0.6},"-=2");
 
-tl.fromTo(ico1,0,{rotation:0},{rotation:180},"-=2")
-  .fromTo(ico2,0,{rotation:0},{rotation:180})
-  .fromTo(ico3,0,{rotation:0},{rotation:180});
+
 
 
 hamburger.addEventListener('click', _ => {
@@ -71,14 +70,16 @@ function main(){
    }
  }
 
+
+
  function rotation(icofont){
    if(icofont.classList.contains("rotated")){
       icofont.classList.remove("rotated");
-      footMenu.to(icofont,0,{rotation:180});
+      footMenu.to(icofont,0,{rotation:0});
    }
    else{
      icofont.classList.add("rotated");
-     footMenu.to(icofont,0,{rotation:0});
+     footMenu.to(icofont,0,{rotation:180});
    }
  }
 

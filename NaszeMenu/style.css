@@ -309,6 +309,9 @@ a:hover{
 		padding:0px 0px 10px 0px;
 		display:block;
 	}
+	.main_container{
+		padding-bottom:0 !important;
+	}
 	.pustydiv{
 		display:none;
 	}
@@ -391,7 +394,9 @@ a:hover{
 		font-size: 20px;
 	}
 
-
+	footer{
+		position:relative;
+	}
 	.nadfooter{
 		height:auto;
 		padding: 0;
@@ -523,6 +528,9 @@ a:hover{
 		padding:0px 0px 10px 0px;
 		display:block;
 	}
+	.main_container{
+		padding-bottom:0 !important;
+	}
 	.pustydiv{
 		display:none;
 	}
@@ -603,9 +611,7 @@ a:hover{
 	}
 
 	footer{
-		position: absolute;
-		bottom: 0;
-		left:0;
+		position: relative;
 	}
 	.nadfooter{
 		height:auto;
@@ -738,6 +744,9 @@ a:hover{
 		padding:0px 0px 10px 0px;
 		display:block;
 	}
+	.main_container{
+		padding-bottom:0 !important;
+	}
 	.pustydiv{
 		display:none;
 	}
@@ -812,7 +821,9 @@ a:hover{
 		font-size: 20px;
 	}
 
-
+	footer{
+		position:relative;
+	}
 	.nadfooter{
 		height:auto;
 		padding: 0;
