@@ -130,7 +130,7 @@ header .header-mobile{
 .pojemnik{
 	display: inline-block;
 	width: 210px;
-	height: 335px;
+	height: 345px;
 	padding:15px;
 	margin:20px 40px;
 	overflow: auto;
@@ -139,7 +139,7 @@ header .header-mobile{
 	border-image-slice: 1;
 }
 .paragraphpoj{
-	height:80px;
+	height:90px;
 }
 .paragraphpoj p{
 	font-size: 25px;
@@ -363,7 +363,7 @@ a:hover{
 		text-align: center;
 		display: inline-block;
 		width: 130px;
-		height: 240px;
+		height: 250px;
 		padding: 7px;
 		margin: 10px 0px;
 		overflow: auto;
@@ -388,7 +388,7 @@ a:hover{
 		border-image-slice: 1;
 	}
 	.paragraphpoj{
-		height:60px;
+		height:105px;
 	}
 	.paragraphpoj p{
 		font-size: 20px;
@@ -471,7 +471,7 @@ a:hover{
 
 
 
-@media only screen and (max-width: 518px) and (min-width:357px){
+@media only screen and (min-width:357px)  and (max-width: 518px) {
 
   *{
 		padding:0px;
@@ -568,22 +568,23 @@ a:hover{
 	}
 	.wszystkiekawy img{
 		width:110px;
-		height:145px;
+		height:150px;
 	}
 	.pojemnik .imgpoj{
 		width:130px;
 		height:145px;
-		padding:0 5px;
+		padding:0px 5px;
 	}
 	.pojemnik{
 		text-align: center;
 		display: inline-block;
     width: 140px;
-    height: 240px;
+    height: 255px;
     padding: 7px;
     margin: 15px 0px;
     overflow: auto;
 	}
+
 	.pojemnik.no1{
 		margin-left:0px;
 		margin-right:10px;
@@ -604,7 +605,7 @@ a:hover{
 		border-image-slice: 1;
 	}
 	.paragraphpoj{
-		height:60px;
+		height:100px;
 	}
 	.paragraphpoj p{
 		font-size: 20px;
@@ -794,7 +795,7 @@ a:hover{
 	.pojemnik{
 		display: inline-block;
     width: 150px;
-    height: 250px;
+    height: 285px;
     padding: 15px;
     margin: 10px 10px;
     overflow: auto;
@@ -815,10 +816,17 @@ a:hover{
 		border-image-slice: 1;
 	}
 	.paragraphpoj{
-		height:60px;
+		height:108px;
 	}
 	.paragraphpoj p{
 		font-size: 20px;
+	}
+	.paragraphpoj p{
+		font-size: 23px;
+		padding-top:20px;
+		padding-bottom: 5px;
+		color: hsl(0,0%,0%);
+		margin-bottom:4px;
 	}
 
 	footer{
@@ -1002,7 +1010,7 @@ a:hover{
 	.pojemnik{
 		display: inline-block;
     width: 150px;
-    height: 250px;
+    height: 285px;
     padding: 15px;
     margin: 10px 10px;
     overflow: auto;
@@ -1023,10 +1031,10 @@ a:hover{
 		border-image-slice: 1;
 	}
 	.paragraphpoj{
-		height:60px;
+		height:108px;
 	}
 	.paragraphpoj p{
-		font-size: 20px;
+		font-size: 23px;
 	}
 
 
@@ -1203,7 +1211,7 @@ a:hover{
 	.pojemnik{
 		display: inline-block;
     width: 180px;
-    height: 280px;
+    height: 300px;
     padding: 15px;
     margin: 10px 20px;
     overflow: auto;
@@ -1224,10 +1232,10 @@ a:hover{
 		border-image-slice: 1;
 	}
 	.paragraphpoj{
-		height:60px;
+		height:78px;
 	}
 	.paragraphpoj p{
-		font-size: 20px;
+		font-size: 21px;
 	}
 
 
