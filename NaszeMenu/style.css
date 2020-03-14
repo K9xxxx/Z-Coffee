@@ -471,7 +471,7 @@ a:hover{
 
 
 
-@media only screen and (max-width: 518px) and (min-width:357px){
+@media only screen and (min-width:357px) and (max-width: 518px) {
 
   *{
 		padding:0px;
@@ -567,23 +567,25 @@ a:hover{
 		margin:0px;
 	}
 	.wszystkiekawy img{
-		width:110px;
+		width:105px;
 		height:145px;
 	}
 	.pojemnik .imgpoj{
-		width:130px;
+		width:115px;
 		height:145px;
-		padding:0 5px;
+		padding:0px;
+		margin:0 auto;
 	}
 	.pojemnik{
 		text-align: center;
 		display: inline-block;
-    width: 140px;
+    width: 135px;
     height: 240px;
     padding: 7px;
     margin: 15px 0px;
     overflow: auto;
 	}
+
 	.pojemnik.no1{
 		margin-left:0px;
 		margin-right:10px;
@@ -607,7 +609,7 @@ a:hover{
 		height:60px;
 	}
 	.paragraphpoj p{
-		font-size: 20px;
+		font-size: 19px;
 	}
 
 	footer{
@@ -819,6 +821,13 @@ a:hover{
 	}
 	.paragraphpoj p{
 		font-size: 20px;
+	}
+	.paragraphpoj p{
+		font-size: 25px;
+		padding-top:20px;
+		padding-bottom: 5px;
+		color: hsl(0,0%,0%);
+		margin-bottom:4px;
 	}
 
 	footer{
