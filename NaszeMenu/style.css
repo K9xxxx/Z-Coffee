@@ -581,8 +581,11 @@ a:hover{
     width: 140px;
     height: 255px;
     padding: 7px;
-    margin: 10px 0px;
+    margin: 10px 8px;
     overflow: auto;
+		border: 2px solid hsla(0, 0%, 0%, 0.2);
+		border-image: linear-gradient(57deg, hsla(29, 100%, 13%, 0.9), hsla(29, 25%, 63%,0), hsla(29, 25%, 63%,0), hsla(29, 100%, 13%, 0.9), hsl(29, 25%, 63%), hsl(29, 25%, 63%), hsla(29, 100%, 13%, 0.9));
+		border-image-slice: 1;
 	}
 
 	.pojemnik.no1{
