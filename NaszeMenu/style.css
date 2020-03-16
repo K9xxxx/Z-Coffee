@@ -573,12 +573,13 @@ a:hover{
 	.pojemnik .imgpoj{
 		width:130px;
 		height:158px;
-		padding:0px 5px;
+		padding:0px;
+		margin:0;
 	}
 	.pojemnik{
 		text-align: center;
 		display: inline-block;
-    width: 140px;
+    width: 132px;
     height: 255px;
     padding: 7px;
     margin: 10px 8px;
