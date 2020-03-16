@@ -574,13 +574,12 @@ a:hover{
 		width:130px;
 		height:158px;
 		padding:0px;
-		margin:0;
 	}
 	.pojemnik{
 		text-align: center;
 		display: inline-block;
-    width: 132px;
-    height: 255px;
+    width: 140px;
+    max-height: 255px;
     padding: 7px;
     margin: 10px 8px;
     overflow: auto;
@@ -591,7 +590,7 @@ a:hover{
 
 	.pojemnik > p{
 		font-size: 20px;
-		margin:20px 2px 2px 2px;
+		margin:20px;
 	}
 
 	footer{
