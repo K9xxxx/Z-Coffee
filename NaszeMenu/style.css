@@ -572,7 +572,7 @@ a:hover{
 	}
 	.pojemnik .imgpoj{
 		width:130px;
-		height:151px;
+		height:158px;
 		padding:0px 5px;
 	}
 	.pojemnik{
@@ -581,7 +581,7 @@ a:hover{
     width: 140px;
     height: 255px;
     padding: 7px;
-    margin: 25px 8px;
+    margin: 10px 8px;
     overflow: auto;
 		border: 2px solid hsla(0, 0%, 0%, 0.2);
 		border-image: linear-gradient(57deg, hsla(29, 100%, 13%, 0.9), hsla(29, 25%, 63%,0), hsla(29, 25%, 63%,0), hsla(29, 100%, 13%, 0.9), hsl(29, 25%, 63%), hsl(29, 25%, 63%), hsla(29, 100%, 13%, 0.9));
@@ -590,8 +590,7 @@ a:hover{
 
 	.pojemnik > p{
 		font-size: 20px;
-		margin:0;
-		padding:20px 0px 0px 0px;
+		margin:20px 0px 0px 0px;
 	}
 
 	footer{
