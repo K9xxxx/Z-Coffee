@@ -112,7 +112,6 @@ header li {
 .menu-option{
 	padding:50px 0;
 	font-size:30px;
-	font-family: 'Montserrat', sans-serif;
 }
 
 .card{
@@ -131,106 +130,128 @@ header li {
 	background: url(./img/latte.jpg);
   background-size: cover;
 	background-position: 10px -3rem;
+	transform: rotate(10deg);
+	margin-left:-40px;
 }
 .card.nr2 .img{
 	background: url(./img/americano.jpg);
   background-size: cover;
 	background-position: 10px -4rem;
+	margin-left:-40px;
 }
 .card.nr3 .img{
-	background: url(./img/white%20americano.jpg);
+	background: url(./img/White%20americano.jpg);
   background-size: cover;
 	background-position: 10px -4rem;
+	margin-left:-40px;
 }
 .card.nr4 .img{
 	background: url(./img/cappucino.jpg);
   background-size: cover;
 	background-position: 50px -6rem;
+	margin-left:-40px;
 }
 .card.nr5 .img{
 	background: url(./img/espresso.jpg);
   background-size: cover;
 	background-position: 10px -5rem;
+	margin-left:-40px;
 }
 .card.nr6 .img{
 	background: url(./img/espresso%20doppio.jpg);
   background-size: cover;
 	background-position: 10px -5rem;
+	margin-left:-40px;
 }
 .card.nr7 .img{
 	background: url(./img/espresso%20macchiato.jpg);
   background-size: cover;
 	background-position: 10px -7rem;
+	margin-left:-40px;
 }
 .card.nr8 .img{
 	background: url(./img/flat%20white.jpg);
   background-size: cover;
 	background-position: 10px -4rem;
+	margin-left:-40px;
 }
 .card.nr9 .img{
 	background: url(./img/Whipped%20cream%20mocha.jpg);
   background-size: cover;
 	background-position: 40px -8rem;
+	margin-left:-40px;
 }
 .card.nr10 .img{
 	background: url(./img/frozen%20mango%20coffe.jpg);
   background-size: cover;
 	background-position: 20px -1rem;
+	margin-left:-40px;
 }
 .card.nr11 .img{
 	background: url(./img/cappucino%20frappe.jpg);
   background-size: cover;
 	background-position: 30px -2rem;
+	margin-left:-40px;
 }
 .card.nr12 .img{
 	background: url(./img/whited%20iced%20latte.jpg);
   background-size: cover;
 	background-position: 20px -1rem;
+	margin-left:-40px;
 }
 .card.nr13 .img{
 	background: url(./img/ciabatta%20z%20szynka%20dojrzewajaca.jpg);
   background-size: cover;
 	background-position: 10px -8rem;
+	margin-left:-40px;
 }
 .card.nr14 .img{
 	background: url(./img/ciabatta%20z%20jajkiem%20i%20bekonem.jpg);
   background-size: cover;
 	background-position: 20px -6rem;
+	margin-left:-40px;
 }
 .card.nr15 .img{
 	background: url(./img/kanapka%20z%20jajkiem.jpg);
   background-size: cover;
 	background-position: 30px -5rem;
+	margin-left:-40px;
 }
 .card.nr16 .img{
 	background: url(./img/kanapka%20z%20mozzarella.jpg);
   background-size: cover;
 	background-position: 20px -6rem;
+	margin-left:-40px;
 }
 .card.nr17 .img{
 	background: url(./img/Croissant.jpg);
   background-size: cover;
 	background-position: 10px -3rem;
+	margin-left:-40px;
 }
 .card.nr18 .img{
 	background: url(./img/muffin%20jabłkowy.jpg);
   background-size: cover;
 	background-position: 10px -3rem;
+	margin-left:-40px;
 }
 .card.nr19 .img{
 	background: url(./img/muffin%20truflowy.jpg);
   background-size: cover;
 	background-position: 10px -10rem;
+	margin-left:-40px;
 }
 .card.nr20 .img{
 	background: url(./img/fruit%20spot.jpg);
   background-size: cover;
-	background-position: 60px -4rem;
+	background-position: 30px -4rem;
+	margin-left:-40px;
 }
 .card.nr21 .img{
 	background: url(./img/yogo%20fruit.jpg);
   background-size: cover;
-	background-position: 90px -4rem;
+	background-position: 30px -4rem;
+	margin-left:-40px;
 }
 .img{
     width:325px;
@@ -240,6 +261,7 @@ header li {
     transform: rotate(15deg);
     border-bottom-right-radius: 8rem;
 		border-bottom:2px solid black;
+		border-right:0.5px solid black;
     background-color: #b4b4b4;
     overflow:hidden;
 }
@@ -258,7 +280,6 @@ h4{
 	margin: 0rem 0 -10px;
 	font-weight:900;
 	color:#fff;
-	font-family: 'Montserrat', sans-serif;
 }
 .right{
 	position:relative !important;
