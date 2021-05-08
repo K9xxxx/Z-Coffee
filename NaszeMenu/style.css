@@ -9,7 +9,8 @@ body {
 }
 header {
     width: 100%;
-    position: relative;
+    position: fixed;
+	top:0;
     z-index: 20;
     border-bottom: 2px solid hsl(0, 0%, 60%);
 }
@@ -19,6 +20,22 @@ header a{
 }
 header a:hover{
 	color: hsl(0, 10%, 10%);
+}
+.podpodfooter{
+	background-color: #25201B;
+	width:100%;
+	text-align:center;
+	padding:5px 0px;
+}
+.podpodfooter p{
+	font-size: 18px;
+	color:hsl(0,0%,90%);
+}
+.podpodfooter p a{
+	color:hsl(0,0%,90%);
+}
+.podpodfooter p a:hover{
+	color:hsl(0,0%,100%);
 }
 .headcon:hover .icofont-beans{
 	color: hsl(0, 10%, 10%);
@@ -75,7 +92,7 @@ header li {
 .only-border{
 	height:3px;
 	width:100%;
-	background: linear-gradient(to right,hsl(29, 15%, 35%), hsl(29, 15%, 35%), hsl(29, 25%, 63%), hsl(29, 25%, 63%), hsl(29, 15%, 35%), hsl(29, 15%, 35%));)
+	background: linear-gradient(to right,hsl(29, 15%, 35%), hsl(29, 15%, 35%), hsl(29, 25%, 63%), hsl(29, 25%, 63%), hsl(29, 15%, 35%), hsl(29, 15%, 35%));
 }
 
 .opcje ul{
