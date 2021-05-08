@@ -32,6 +32,7 @@ hamburger.addEventListener('click', () => {
   });
 
 
+
 // Animacja pojawiajacego sie loga
 tl.fromTo(logop,3.5,{opacity:0},{opacity:0.8})
   .fromTo(logoh1,4,{opacity:0},{opacity:0.6},"-=2");
